@@ -1,0 +1,30 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+   height: 100%;
+   background-color: rgb(213, 235, 255);
+}
+
+h1{
+   text-align: center;
+   padding-bottom: 20px;
+}
+
+.grid{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-template-rows: repeat(3, 1fr);
+   grid-column-gap: 10px;
+   grid-row-gap: 40px;    
+   padding: 20px;
+   padding-left: 200px;
+}
+
+.grid img{
+   max-width: 100%;
+   height: auto;
+}
